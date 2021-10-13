@@ -4,7 +4,7 @@ spec:
   - name: web
     git:
       branch: main
-      repo_clone_url: https://github.com/thedevdojo/wave.git
+      repo_clone_url: https://github.com/carlosg2/wave.git
     run_command: php artisan migrate --force ; heroku-php-apache2 public/
     envs:
     - key: APP_NAME
@@ -135,7 +135,7 @@ spec:
   - name: migrate
     kind: POST_DEPLOY
     git:
-      repo_clone_url: https://github.com/thedevdojo/wave.git
+      repo_clone_url: https://github.com/carlosg2/wave.git
       branch: main
     run_command: php artisan migrate --seed
     envs:
@@ -183,6 +183,6 @@ spec:
   - name: storagelink
     kind: POST_DEPLOY
     git:
-      repo_clone_url: https://github.com/thedevdojo/wave.git
+      repo_clone_url: https://github.com/carlosg2/wave.git
       branch: main
     run_command: php artisan storage:link
