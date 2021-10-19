@@ -13,7 +13,7 @@
 
                 <div class="px-10 mt-5">
                     <span class="font-mono text-5xl font-bold">${{ $plan->price }}</span>
-                    <span class="text-lg font-bold text-gray-500">per month</span>
+                    <span class="text-lg font-bold text-gray-500">por Mes</span>
                 </div>
 
                 <div class="px-10 mt-6 pb-9">
@@ -67,8 +67,8 @@
             <div class="flex items-center pb-4">
                 <svg class="mr-2 w-14 h-14 text-wave-500" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path d="M4 4a2 2 0 00-2 2v1h16V6a2 2 0 00-2-2H4z"></path><path fill-rule="evenodd" d="M18 9H2v5a2 2 0 002 2h12a2 2 0 002-2V9zM4 13a1 1 0 011-1h1a1 1 0 110 2H5a1 1 0 01-1-1zm5-1a1 1 0 100 2h1a1 1 0 100-2H9z" clip-rule="evenodd"></path></svg>
                 <div class="relative">
-                    <h2 class="text-base font-bold text-wave-500">Sandbox Mode</h2>
-                    <p class="text-sm text-blue-400">Application billing is in sandbox mode, which means you can test the checkout process using the following credentials:</p>
+                    <h2 class="text-base font-bold text-wave-500">Modo Sandbox</h2>
+                    <p class="text-sm text-blue-400">El pago de la plataforma está en modo sandbox, lo que significa que puede probar el proceso de pago con las siguientes credenciales:</p>
                 </div>
             </div>
             <div class="pt-2 text-sm font-bold text-gray-500">
