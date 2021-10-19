@@ -2,9 +2,10 @@ spec:
   name: wave
   services:
   - name: web
-    git:
+    github:
+      repo: carlosg2/xaas
       branch: main
-      repo_clone_url: https://github.com/carlosg2/xaas.git
+      deploy_on_push: true
     run_command: php artisan migrate --force ; heroku-php-apache2 public/
     envs:
     - key: APP_NAME
@@ -134,9 +135,10 @@ spec:
   jobs:
   - name: migrate
     kind: POST_DEPLOY
-    git:
-      repo_clone_url: https://github.com/carlosg2/xaas.git
+    github:
+      repo: carlosg2/xaas
       branch: main
+      deploy_on_push: true
     run_command: php artisan migrate --seed
     envs:
     - key: APP_NAME
@@ -182,7 +184,8 @@ spec:
       type: SECRET
   - name: storagelink
     kind: POST_DEPLOY
-    git:
-      repo_clone_url: https://github.com/carlosg2/xaas.git
+    github:
+      repo: carlosg2/xaas
       branch: main
+      deploy_on_push: true
     run_command: php artisan storage:link
