@@ -72,9 +72,7 @@
                 <div class="flex flex-col items-center lg:flex-row">
                     <div class="flex flex-col justify-center w-full h-full mb-10 lg:pr-8 sm:w-4/5 md:items-center lg:mb-0 lg:items-start md:w-3/5 lg:w-1/2">
                         <p class="mb-2 text-base font-medium tracking-tight uppercase text-wave-500">Ahorra tiempo y administra mejor</p>
-                        <h2
-                            class="text-4xl font-extrabold leading-10 tracking-tight text-gray-900 sm:leading-none lg:text-5xl xl:text-6xl">
-                            Testimonials</h2>
+                        
                         <p class="pr-5 my-6 text-lg text-gray-600 md:text-center lg:text-left">Somos Extrapos, el software diseñado para crecer contigo. Ya sea que necesites una solución simple de pagos ó un potente sistema integrado de punto de venta, en Extrapos tenemos un plan POS para ti. El sistema de punto de venta de Extrapos mantiene tu información segura y te permite monitorear tus ventas y administrar tu negocio desde cualquier lugar y con cualquier dispositivo.</p>
                         <a href="#_"
                             class="flex items-center justify-center px-8 py-3 text-base font-medium leading-6 text-white transition duration-150 ease-in-out border border-transparent rounded-md shadow bg-wave-600 hover:bg-wave-500 focus:outline-none focus:border-wave-700 focus:shadow-outline-wave md:py-4 md:text-lg md:px-10">Conoce más</a>
