@@ -1,0 +1,88 @@
+{
+    "products": [
+        {
+          "id": 1,
+          "name": "Beef Burger",
+          "price": 115,
+          "image": "img/beef-burger.png",
+          "options": null
+        },
+        {
+          "id": 2,
+          "name": "Sandwich",
+          "price": 70,
+          "image": "img/sandwich.png",
+          "options": null
+        },
+        {
+          "id": 3,
+          "name": "Sawarma",
+          "price": 85,
+          "image": "img/sawarma.png",
+          "options": null
+        },
+        {
+          "id": 4,
+          "name": "Croissant",
+          "price": 35,
+          "image": "img/croissant.png",
+          "options": null
+        },
+        {
+          "id": 5,
+          "name": "Cinnamon Roll",
+          "price": 50,
+          "image": "img/cinnamon-roll.png",
+          "options": null
+        },
+        {
+          "id": 6,
+          "name": "Choco Glaze Donut with Peanut",
+          "price": 33,
+          "image": "img/choco-glaze-donut-peanut.png",
+          "options": null
+        },
+        {
+          "id": 7,
+          "name": "Choco Glazed Donut",
+          "price": 33,
+          "image": "img/choco-glaze-donut.png",
+          "options": null
+        },
+        {
+          "id": 8,
+          "name": "Red Glazed Donut",
+          "price": 33,
+          "image": "img/red-glaze-donut.png",
+          "options": null
+        },
+        {
+          "id": 9,
+          "name": "Iced Coffee Latte",
+          "price": 55,
+          "image": "img/coffee-latte.png",
+          "options": null
+        },
+        {
+          "id": 10,
+          "name": "Iced Chocolate",
+          "price": 45,
+          "image": "img/ice-chocolate.png",
+          "options": null
+        },
+        {
+          "id": 11,
+          "name": "Iced Tea",
+          "price": 35,
+          "image": "img/ice-tea.png",
+          "options": null
+        },
+        {
+          "id": 12,
+          "name": "Iced Matcha Latte",
+          "price": 55,
+          "image": "img/matcha-latte.png",
+          "options": null
+        }
+    ]
+}
